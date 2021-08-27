@@ -4,15 +4,15 @@ API Rest con WebFlux para la gestion del tipo de cambio
 
 ## Requisitos
 
-* tener instalado STS
-* Docker
-* MongoDB
+* Tener instalado STS
+* Tener instalado Docker
+* Tener instalado MongoDB
 
 ### Levantar el workspace
 
-* Clonar el pryecto y levantarlo con STS
+* Clonar el proyecto y levantarlo con STS
 * Realizar maven install
 
 ### Docker
 
-* ejecutar docker compose up en la ruta del proyecto
+* Ejecutar "docker compose up" en la ruta del proyecto
