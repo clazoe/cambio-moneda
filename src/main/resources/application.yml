@@ -1,0 +1,18 @@
+spring:
+  data:
+    mongodb:
+      database: Currenciesdb
+      #host: localhost
+      host: host.docker.internal
+      port: 27017
+
+
+server:
+  #prod
+  port: 9292
+  #dev
+  #port: 9293
+  
+logging:
+  pattern:
+    level: "[%X{MDC_KEY}] %5p"

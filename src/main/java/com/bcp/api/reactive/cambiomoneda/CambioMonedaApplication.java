@@ -1,0 +1,13 @@
+package com.bcp.api.reactive.cambiomoneda;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class CambioMonedaApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(CambioMonedaApplication.class, args);
+	}
+
+}
